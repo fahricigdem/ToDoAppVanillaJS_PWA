@@ -25,7 +25,11 @@
     </footer>
 
     <script>
-      navigator.serviceWorker && navigator.serviceWorker.register("sw.js");
+      if ("serviceWorker" in navigator.serviceWorker)
+        navigator.serviceWorker
+          .register("sw.js")
+          .then((registration) => console.log("SW Registered: ", registration))
+          .catch((err) => console.log("SW Regist. Failed: ", err));
     </script>
     <script src="js/main.js"></script>
   </body>
