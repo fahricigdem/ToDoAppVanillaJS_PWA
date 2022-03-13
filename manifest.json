@@ -2,13 +2,13 @@
   "name": "ToDoAppVanillaJS_PWA",
   "short_name": "ToDoAppVanillaJS_PWA",
   "display": "standalone",
-  "start_url": "https://fahricigdem.github.io/ToDoAppVanillaJS_PWA/",
+  "start_url": "/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "icons": [
     {
       "src": "icon.png",
-      "sizes": "512x512",
+      "sizes": "256/256",
       "type": "image/png"
     }
   ]
