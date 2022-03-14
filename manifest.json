@@ -7,7 +7,7 @@
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "/ToDoAppVanillaJS_PWA/icon.png",
       "sizes": "256/256",
       "type": "image/png"
     }
