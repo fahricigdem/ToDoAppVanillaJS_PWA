@@ -16,12 +16,12 @@ console.log('Script loaded!')
 var cacheStorageKey = 'minimal-pwa-3'
 
 var cacheList = [
-    '/ToDoAppVanillaJS_PWA/',
-    "//ToDoAppVanillaJS_PWA/index.html",
-    "/ToDoAppVanillaJS_PWA/css/main.css",
-    "/ToDoAppVanillaJS_PWA/js/main.js",
-    "/ToDoAppVanillaJS_PWA/js/prevent-zoom.js",
-    "/ToDoAppVanillaJS_PWA/icon.png",
+    '/',
+    "index.html",
+    "css/main.css",
+    "js/main.js",
+    "js/prevent-zoom.js",
+    "icon.png",
 ]
 
 self.addEventListener('install', function (e) {

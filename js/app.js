@@ -1,5 +1,5 @@
 if (navigator.serviceWorker != null) {
-    navigator.serviceWorker.register('/ToDoAppVanillaJS_PWA/sw.js', { scope: '/ToDoAppVanillaJS_PWA/' })
+    navigator.serviceWorker.register('sw.js')
         .then(function (registration) {
             console.log('Registered events at scope: ', registration.scope);
         });

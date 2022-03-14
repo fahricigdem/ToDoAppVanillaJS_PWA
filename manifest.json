@@ -1,14 +1,13 @@
 {
-  "name": "ToDoAppVanillaJS_PWA",
-  "short_name": "ToDoAppVanillaJS_PWA",
+  "name": "ToDo App VanillaJS PWA",
+  "short_name": "ToDo PWA",
   "display": "standalone",
-  "start_url": "/ToDoAppVanillaJS_PWA/",
-  "scope": "/ToDoAppVanillaJS_PWA/",
+  "start_url": "/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "/ToDoAppVanillaJS_PWA/icon.png",
+      "src": "icon.png",
       "sizes": "256/256",
       "type": "image/png"
     }
