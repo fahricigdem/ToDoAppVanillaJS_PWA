@@ -3,6 +3,7 @@
   "short_name": "ToDoAppVanillaJS_PWA",
   "display": "standalone",
   "start_url": "/ToDoAppVanillaJS_PWA/",
+  "scope": "/ToDoAppVanillaJS_PWA/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "icons": [
