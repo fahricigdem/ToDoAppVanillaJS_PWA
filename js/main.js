@@ -35,6 +35,7 @@ function save() {
 }
 
 function load() {
+  //get data from local storage
   let dataString = localStorage.getItem('data');
   let data = JSON.parse(dataString);
   console.log('loaded data', data);
