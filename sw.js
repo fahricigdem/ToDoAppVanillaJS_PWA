@@ -6,7 +6,7 @@ var cacheList = [
     "icon.png",
 ]
 
-//self.addEventListener('install', e => e.waitUntil(caches.open("static").then(cache => cache.addAll(cacheList))))
+self.addEventListener('install', e => e.waitUntil(caches.open("static").then(cache => cache.addAll(cacheList))))
 
 self.addEventListener('fetch', e => e.respondWith(caches.match(e.request).then(response => response || fetch(e.request.url))))
 
@@ -24,18 +24,18 @@ self.addEventListener('fetch', e => e.respondWith(caches.match(e.request).then(r
 //     "icon.png",
 // ]
 
-self.addEventListener('install', function (e) {
-    console.log('Cache event!')
-    e.waitUntil(
-        caches.open(cacheStorageKey).then(function (cache) {
-            console.log('Adding to Cache:', cacheList)
-            return cache.addAll(cacheList)
-        }).then(function () {
-            console.log('Skip waiting!')
-            return self.skipWaiting()
-        })
-    )
-})
+// self.addEventListener('install', function (e) {
+//     console.log('Cache event!')
+//     e.waitUntil(
+//         caches.open(cacheStorageKey).then(function (cache) {
+//             console.log('Adding to Cache:', cacheList)
+//             return cache.addAll(cacheList)
+//         }).then(function () {
+//             console.log('Skip waiting!')
+//             return self.skipWaiting()
+//         })
+//     )
+// })
 
 // self.addEventListener('activate', function (e) {
 //     console.log('Activate event')
